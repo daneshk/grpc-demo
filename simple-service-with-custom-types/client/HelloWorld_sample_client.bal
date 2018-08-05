@@ -4,7 +4,7 @@ import ballerina/grpc;
 function main(string... args) {
 
     endpoint HelloWorldBlockingClient helloWorldBlockingEp {
-        url: "http://localhost:9090"
+        url: "http://localhost:9091"
     };
 
     HelloRequest req = { name: "Sam" };
