@@ -8,7 +8,7 @@ In gRPC, request/response messages of the service method varies from service to 
 
 Execute the following command to build the 'service' package.
 ```
-_$ ballerina build service_
+$ ballerina build service
 ```
 
 Once you build the project, the following files will be generated inside target directory.
@@ -17,19 +17,19 @@ Once you build the project, the following files will be generated inside target 
  
 Run the service using the following command.
 ```
-_$ ballerina run target/service.balx_
+$ ballerina run target/service.balx
 ```
 
 ## How to run gRPC gateway.
 
 Execute the following command to build the 'client' package.
 ```
-_$ ballerina build gateway_
+$ ballerina build gateway
 ```
 
 Run the client using the following command.
 ```
-_$ ballerina run target/gateway.balx_
+$ ballerina run target/gateway.balx
 ```
 
 ## Testing
